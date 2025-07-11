@@ -9,7 +9,7 @@
 		".": "./main.ts"
 	},
 	"scripts": {
-		"dev": "node --experimental-strip-types --watch ./server.ts"
+		"dev": "node --watch ./server.ts"
 	},
 	"dependencies": {
 		"@trpc/server": "^11.4.3",
