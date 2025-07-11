@@ -1,5 +1,4 @@
-import { queryClient } from "../tanstack.ts";
-import { t } from "./client.ts";
+import { queryClient, t } from "./client.ts";
 
 export const usersQuery = t.users.list.queryOptions();
 export const createUserMutation = t.users.create.mutationOptions({

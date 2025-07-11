@@ -1,8 +1,6 @@
 import type { AppRouter } from "@apps/server";
 import { createTRPCClient, httpBatchLink } from "@trpc/client";
-import { notNullish } from "../utils.ts";
-import { createTRPCOptionsProxy } from "@trpc/tanstack-react-query";
-import { queryClient } from "../tanstack.ts";
+import { notNullish } from "./utils.ts";
 
 export const trpc = createTRPCClient<AppRouter>({
 	links: [
@@ -13,9 +11,4 @@ export const trpc = createTRPCClient<AppRouter>({
 			),
 		}),
 	],
-});
-
-export const t = createTRPCOptionsProxy({
-	client: trpc,
-	queryClient,
 });

@@ -5,7 +5,7 @@ import {
 	deleteUserMutation,
 	updateUserMutation,
 	usersQuery,
-} from "../lib/trpc/users.sample.ts";
+} from "../lib/tanstack/users.sample.ts";
 
 export function UsersSample() {
 	return (
@@ -72,7 +72,6 @@ function CreateSection() {
 				<label>
 					Name
 					<input
-						id="form.name"
 						type="text"
 						required
 						value={name}
