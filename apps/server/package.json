@@ -1,0 +1,20 @@
+{
+	"name": "@apps/server",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"license": "MIT",
+	"private": true,
+	"exports": {
+		".": "./main.ts"
+	},
+	"scripts": {
+		"dev": "node --experimental-strip-types --watch ./server.ts"
+	},
+	"dependencies": {
+		"@trpc/server": "^11.4.3",
+		"@types/cors": "^2.8.19",
+		"cors": "^2.8.5",
+		"valibot": "^1.1.0"
+	}
+}
