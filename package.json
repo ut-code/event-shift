@@ -1,5 +1,5 @@
 {
-	"name": "event-shift",
+	"name": "kumunger",
 	"version": "1.0.0",
 	"private": true,
 	"type": "module",
@@ -23,9 +23,9 @@
 	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/ut-code/event-shift/issues"
+		"url": "https://github.com/ut-code/kumunger/issues"
 	},
-	"homepage": "https://github.com/ut-code/event-shift#readme",
+	"homepage": "https://github.com/ut-code/kumunger#readme",
 	"workspaces": [
 		"apps/*"
 	],

@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "event-shift",
+      "name": "kumunger",
       "dependencies": {
         "concurrently": "^9.2.0",
       },

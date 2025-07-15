@@ -1,12 +1,12 @@
-# EventShift
+# Kumunger
 
 ```sh
 # SETUP: node version must be >= v23.6.0
 node --version # -> v24.1.0
 
 # Clone this repository
-git clone git@github.com:ut-code/event-shift
-cd event-shift
+git clone git@github.com:ut-code/kumunger
+cd kumunger
 
 # Create .env - Copy from Discord if needed
 cp .env.sample .env
