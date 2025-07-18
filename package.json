@@ -5,7 +5,7 @@
 	"type": "module",
 	"description": "",
 	"scripts": {
-		"dev": "concurrently --kill-others 'npm -w apps/web run dev' 'npm -w apps/server run dev'",
+		"dev": "concurrently --kill-others 'npm -w packages/web run dev' 'npm -w packages/server run dev'",
 		"lint": "eslint ."
 	},
 	"devDependencies": {
@@ -27,7 +27,7 @@
 	},
 	"homepage": "https://github.com/ut-code/kumunger#readme",
 	"workspaces": [
-		"apps/*"
+		"packages/*"
 	],
 	"dependencies": {
 		"concurrently": "^9.2.0"

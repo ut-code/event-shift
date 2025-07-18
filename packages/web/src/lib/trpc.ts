@@ -1,4 +1,4 @@
-import type { AppRouter } from "@apps/server";
+import type { AppRouter } from "@packages/server";
 import { createTRPCClient, httpBatchLink } from "@trpc/client";
 import { notNullish } from "./utils.ts";
 
